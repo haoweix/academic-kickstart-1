@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Haowei Xiang
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,33 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Ph.D. Student
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: University of Michigan, Ann Arbor
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include fMRI, image processing and optimization, deep learning.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- fMRI (specific topics TBD)
+- Image/signal processing
+- Optimization
+- Machine Learning
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Ph.D. in Electrical and Computer Engineering
+    institution: University of Michigan, Ann Arbor
+    year: Current
+  - course: Master in Electrical and Computer Engineering
+    institution: University of Michigan, Ann Arbor
+    year: 2017
+  - course: BSc in Automation
+    institution: Huazhong University of Science & Technology
+    year: 2013
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -44,16 +45,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: mailto:haoweix@umich.edu  # For a direct email link, use "mailto:test@example.org".
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://github.com/haoweix
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/haoweix
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
@@ -70,6 +71,4 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am a first-year Ph.D. student at ECE [University of Michigan](https://www.umich.edu/), co-advised by [Prof. Jeffrey Fessler](https://web.eecs.umich.edu/~fessler/) and [Prof. Douglas Noll](https://nollresearch.engin.umich.edu). I revieved Bachelor degree from Huazhong University of Science & Technology. During my undergraduate, I have an internship at EMC Lab of Missouri University of Science & Technology in the summer of 2016. In 2017, I did my undergraduate thesis on Position-based Visual Servoing control under the guidance of [Prof. Ye Yuan](http://yy311.github.io/). From January 2018, I am working with [Prof. Jeffrey Fessler](https://web.eecs.umich.edu/~fessler/) on acceleating the sparse representation learning using sketching. I also participate in *BulePath* Project in 2018, which aims at helping visual impaired people navigate indoor spaces within BBB building and Kellogg Eye Center. I have worked with [Prof. Yuni Dewaraja](https://medicine.umich.edu/dept/radiology/yuni-dewaraja-phd) on SPECT/CT scatter estimation using CNNs from Dec. 2018 to Aug. 2019. Now I will be working on fMRI (topics TBD).
