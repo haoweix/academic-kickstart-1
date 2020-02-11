@@ -14,15 +14,14 @@ role: Ph.D. Student
 
 # Organizations/Affiliations
 organizations:
-- name: University of Michigan, Ann Arbor
+- name: EECS, University of Michigan, Ann Arbor
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include fMRI, image processing and optimization, deep learning.
 
 interests:
-- fMRI (specific topics TBD)
-- Image/signal processing
+- Biomedical Imaging (MRI)
 - Optimization
 - Machine Learning
 
@@ -71,4 +70,9 @@ user_groups:
 - Visitors
 ---
 
-I am a first-year Ph.D. student at ECE [University of Michigan](https://www.umich.edu/), co-advised by [Prof. Jeffrey Fessler](https://web.eecs.umich.edu/~fessler/) and [Prof. Douglas Noll](https://nollresearch.engin.umich.edu). I revieved Bachelor degree from Huazhong University of Science & Technology. During my undergraduate, I have an internship at EMC Lab of Missouri University of Science & Technology in the summer of 2016. In 2017, I did my undergraduate thesis on Position-based Visual Servoing control under the guidance of [Prof. Ye Yuan](http://yy311.github.io/). From January 2018, I am working with [Prof. Jeffrey Fessler](https://web.eecs.umich.edu/~fessler/) on acceleating the sparse representation learning using sketching. I also participate in *BulePath* Project in 2018, which aims at helping visual impaired people navigate indoor spaces within BBB building and Kellogg Eye Center. I have worked with [Prof. Yuni Dewaraja](https://medicine.umich.edu/dept/radiology/yuni-dewaraja-phd) on SPECT/CT scatter estimation using CNNs from Dec. 2018 to Aug. 2019. Now I will be working on fMRI (topics TBD).
+I am a first-year Ph.D. student at ECE [University of Michigan](https://www.umich.edu/), co-advised by [Prof. Jeffrey Fessler](https://web.eecs.umich.edu/~fessler/) and [Prof. Douglas Noll](https://nollresearch.engin.umich.edu). I revieved Bachelor degree from Huazhong University of Science & Technology. 
+
+<During my undergraduate, I have an internship at EMC Lab of Missouri University of Science & Technology in the summer of 2016. >
+
+In 2017, I did my undergraduate thesis on Position-based Visual Servoing control under the guidance of [Prof. Ye Yuan](http://yy311.github.io/). In 2018, I worked with [Prof. Jeffrey Fessler](https://web.eecs.umich.edu/~fessler/) and [Dr. Il Yong Chun](http://ilyong.ch) on acceleating the sparse representation learning using sketching.  I also worked with [Prof. Yuni Dewaraja](https://medicine.umich.edu/dept/radiology/yuni-dewaraja-phd) on SPECT/CT scatter estimation using CNNs from Dec. 2018 to Aug. 2019.
+

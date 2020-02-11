@@ -1,9 +1,13 @@
 ---
-title: "An example conference paper"
+title: "SPECT/CT scatter estimation using a deep
+convolutional neural network: implementation in
+Y-90 imaging"
 authors:
 - admin
-- Robert Ford
-date: "2013-07-01T00:00:00Z"
+- Hongki Lim
+- Jeffrey A. Fessler
+- Yuni K. Dewaraja
+date: "2020-02-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -16,16 +20,16 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication: In *IEEE NSS/MIC*
+publication_short: In *NSS/MIC*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Monte Carlo (MC) based scatter modeling in Y-90 bremsstrahlung SPECT has demonstrated improved image quality and quantitative accuracy, but at the expense of computational complexity. We present a deep learning approach for SPECT/CT scatter estimation that substantially reduces the computation time. Once trained, our deep Convolutional Neural Network (CNN) takes the projections from the SPECT camera and CT-based attenuation map as input and outputs the scatter projections. MC simulated digital phantom data, where true scatter is known, is used during the training process and the network is trained to match the MC scatter estimation. For our network, Adam is used as optimizer, the learning rate is 1e-4, the mean square error is used as loss, the batch size is 32, and we train this CNN with 100 epochs. In testing with a hot sphere phantom simulation and a liver phantom measurement, visual image quality and contrast recovery was similar with the CNN and MC scatter estimation methods, but the CNN scatter estimate was generated in a fraction of the time needed for the MC scatter estimation ( about 1 min for CNN vs 1-2 hours for MC). The short processing time with CNN while maintaining accuracy has high clinical significance for quantitative Y-90 SPECT imaging.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Monte Carlo (MC) based scatter modeling in Y-90 bremsstrahlung SPECT has demonstrated improved image quality and quantitative accuracy, but at the expense of computational complexity. We present a deep learning approach for SPECT/CT scatter estimation that substantially reduces the computation time. Once trained, our deep Convolutional Neural Network (CNN) takes the projections from the SPECT camera and CT-based attenuation map as input and outputs the scatter projections.
 
 tags:
-- Source Themes
+- scatter estimation
 featured: true
 
 links:
@@ -43,7 +47,7 @@ url_video: '#'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: '[**System Diagram**](https://unsplash.com/photos/pLCdAaMFLTE)'
   focal_point: ""
   preview_only: false
 
@@ -63,13 +67,7 @@ projects:
 slides: example
 ---
 
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
 
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
 
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
 
